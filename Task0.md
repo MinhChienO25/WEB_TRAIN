@@ -37,6 +37,7 @@
   - Truy vấn: Thường xuất hiện trong URL của các trang động, truy vấn bao gồm dấu chấm hỏi, theo sau là các tham số hoặc chuỗi truy vấn.
   - Tham số: là các phần thông trong chuỗi truy vấn của URl. Nhiều tham số có thể được phân tách bằng dấu và (&).
   - Đoạn trích: là một tham chiếu nội bộ đến một phần trong trang web. Nó xuất hiện ở cuối URL và bắt đầu bằng dấu thăng (#).
+  
   ![URL](https://hackmd.io/_uploads/BkesvTnFMe.png)
 
 6. HTTP Headers
