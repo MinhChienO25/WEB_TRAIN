@@ -56,10 +56,10 @@
 * Response Headers:
   - `Access-Control-Allow-Origin`: Đây là tiêu đề phản hồi mà máy chủ gửi lại cho trình duyệt để thông báo: “Nguồn gốc này được phép đọc phản hồi của tôi.
   - `Cache-Control`: kiểm soát hành vi lưu trữ tạm thời trong trình duyệt của máy khách hoặc các bộ nhớ đệm trung gian. Nó xác định cách phản hồi có thể được lưu vào bộ nhớ đệm, khi nào nó hết hạn và cách nó nên được xác thực lại. Bao gồm các giá trị như:
-     - Max-age:khoảng thời gian cần thiết để bản sao được lưu trong bộ nhớ cache của một tài nguyên hết hạn) 
-     - No-cache:trình duyệt có thể lưu trữ phản hồi, nhưng trước tiên phải gửi yêu cầu xác thực đến  máy chủ gốc.
-     - No-store:trình duyệt không được phép lưu trữ phản hồi vào bộ nhớ cache và phải tải phản hồi từ máy chủ mỗi khi được yêu cầu.
-     - Public:cho biết rằng một tài nguyên có thể được lưu vào bộ nhớ đệm bởi bất kỳ bộ nhớ đệm nào.
+     - Max-age: khoảng thời gian cần thiết để bản sao được lưu trong bộ nhớ cache của một tài nguyên hết hạn) 
+     - No-cache: trình duyệt có thể lưu trữ phản hồi, nhưng trước tiên phải gửi yêu cầu xác thực đến  máy chủ gốc.
+     - No-store: trình duyệt không được phép lưu trữ phản hồi vào bộ nhớ cache và phải tải phản hồi từ máy chủ mỗi khi được yêu cầu.
+     - Public: cho biết rằng một tài nguyên có thể được lưu vào bộ nhớ đệm bởi bất kỳ bộ nhớ đệm nào.
      - Private: cho biết tài nguyên đó chỉ dành riêng cho người dùng — nó vẫn có thể được lưu vào bộ nhớ đệm, nhưng chỉ trên thiết bị của người dùng
   - Etag: cung cấp một mã định danh duy nhất cho một phiên bản cụ thể của tài nguyên.Client có thể gửi mã định danh này trong tiêu đề `If-None-Match` để thông báo cho máy chủ biết phiên bản tài nguyên nào đang được trình duyệt lưu trong bộ nhớ đệm.
   - Expires: chỉ định ngày/giờ cố định cho việc hết hạn của tài nguyên được lưu trong bộ nhớ cache.
