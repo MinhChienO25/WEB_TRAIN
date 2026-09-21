@@ -2,7 +2,6 @@
 1. The HTTP Protocol(HyperText Transfer Protocol)
 * Là giao thức chuẩn được sử dụng để truyền tải phương tiện kỹ thuật số qua Internet và tải các trang web bằng siêu liên kết.
 * HTTP là một giao thức ứng dụng của bộ giao thức TCP/IP là phương thức được sử dụng để truy xuất dữ liệu từ server ở một tài nguyên rõ ràng đã được chỉ định.
-* HEAD: Giống GET nhưng chỉ trả về headers, không trả về body.
 2. HTTP Requests
 * Là một thông điệp mà máy khách gửi đến máy chủ để yêu cầu một tài nguyên hoặc một hành động. Các tài nguyên này có thể là bất cứ thứ gì, từ các trang HTML và hình ảnh đến các tệp, video hoặc thậm chí là các bản ghi cơ sở dữ liệu.
 * Mỗi HTTP Request đều tuân theo một định dạng chuẩn bao gồm:
